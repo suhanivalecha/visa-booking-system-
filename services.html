@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Details</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to your one stop solution</h1>
+    </header>
+    <main>
+        <section id='SERVICES'>
+            <h2>SERVICES</h2>
+            <p>
+                <ol>
+                Services include:
+
+<li>Information and Guidance</li>
+<li>Online Application Portal</li>
+<li>Appointment Scheduling</li>
+<li>Document Verification</li>
+                </ol>
+            </p>
+        </section>
+
+        
+            <div class="container">
+                <h2>Enter user Information</h2>
+                <form action="services.php" method="post">
+                    <div class="form-group">
+                        <label for="user_id">USER ID:</label>
+                        <input type="text" id="user_id" name="user_id" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="application_id">APPLICATION ID</label>
+                        <input type="text" id="application_id" name="application_id" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="user_address">visa type</label>
+                        <input type="text" id="via_type" name="visa_type" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="application_date">APPLICATION DATE:</label>
+                        <input type="text" id="application_date" name="application_date" required>
+                    </div>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </body>
+        </html>

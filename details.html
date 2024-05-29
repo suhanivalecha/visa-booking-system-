@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter user Information</h2>
+        <form action="user_details.php" method="post">
+            <div class="form-group">
+                <label for="user_id">USER ID:</label>
+                <input type="text" id="user_id" name="user_id" required>
+            </div>
+            <div class="form-group">
+                <label for="user_name">USER NAME:</label>
+                <input type="text" id="user_name" name="user_name" required>
+            </div>
+            <div class="form-group">
+                <label for="user_address">USER ADDRESS</label>
+                <input type="text" id="user_address" name="user_address" required>
+            </div>
+            <div class="form-group">
+                <label for="user_contact">USER CONTACT:</label>
+                <input type="text" id="user_contact" name="user_contact" required>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
